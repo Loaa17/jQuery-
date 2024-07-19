@@ -1,0 +1,131 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+}
+/* header */
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.6 ), rgba(0,0,0,0.6)) , url(../imgs/header-img1.jpg);
+    height: 80vh;
+    position: relative;
+}
+
+/* side menu */
+
+.open {
+    position: fixed;
+    z-index: 9;
+    width: 250px;
+    left: -250px;
+    top: 0px;
+    transition: all 0.3s;
+    background-color: black;
+    height: 100%;
+}
+
+    
+.open .sideMenu .close{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.open .sideMenun li{
+    padding: 15px 0px;
+    cursor: pointer;
+    
+}
+
+.open .openIcon{
+    position: absolute;
+    top: 50%;
+    right: -110px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.open .sideMenu a:hover{
+    color: purple !important;
+}
+
+.open .sideMenu i:hover{
+    color: red !important;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;  
+}
+
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+/* side menu */
+
+
+/* header */
+
+
+
+
+/* details */
+.singer{
+    background-color: rgb(104, 36, 104);
+    color: white;
+    cursor: pointer;
+}   
+.singerBox .singerInfo{
+    background-color: rgba(181, 86, 181, 0.64);
+color: white;
+display: none;
+}
+/* details */
+
+
+/* duration */
+
+.duration{
+
+background-image:linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.566)) , url(../imgs/home-img5.jpg);
+height: 150px;
+padding: 0px 10px;
+}
+
+.durationBox{
+    border: solid white 2px;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    background-color: rgba(44, 0, 44, 0.533);
+}
+
+/* duration */
+
+
+/* contact */
+.icon{
+    border: solid gray 1px;
+    padding: 10px !important;
+}
+
+.icon:hover{
+    background-color: purple;
+    color: white !important;
+}
+
+p span{
+    color: rgb(120, 3, 120);
+}
+
+.send{
+    background-color: rgb(120, 3, 120);
+    color: white;
+    border: solid 2px;
+    padding: 10px;
+
+}
+/* contact */
